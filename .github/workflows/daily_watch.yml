@@ -45,7 +45,7 @@ jobs:
       - name: Build Zotero profile
         if: steps.cache-profile.outputs.cache-hit != 'true'
         run: python -m src.cli profile --full
-      - run: python -m src.cli watch --rss --top 20
+      - run: python -m src.cli watch --rss --top 30
       - name: Prepare Pages
         run: |
           mkdir -p public
