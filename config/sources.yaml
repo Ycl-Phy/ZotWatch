@@ -7,9 +7,9 @@ crossref:
   mailto: "you@example.com"
 arxiv:
   enabled: true
-  categories: ["q-bio.GN", "cs.LG"]
+  categories: ["quant-ph", "physics.optics","cond-mat"]
 biorxiv:
-  enabled: true
+  enabled: false
   from_days_ago: 7
 medrxiv:
   enabled: false
